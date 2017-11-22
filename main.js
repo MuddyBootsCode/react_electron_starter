@@ -39,7 +39,8 @@ function createWindow () {
 
     // set apple icon
     if (process.platform === 'darwin') {
-        app.dock.setIcon(iconPath);
+        //You can add your own icon here
+        //app.dock.setIcon(iconPath);
     }
     mainWindow.setMenu(null);
 
